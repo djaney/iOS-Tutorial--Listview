@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ToDoTableViewController.h
 //  listview-test
 //
 //  Created by Djane on 1/26/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ToDoTableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end
-
